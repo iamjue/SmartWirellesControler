@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="@drawable/bg2"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="75pt">
+
+
+        <TextView
+            android:id="@+id/tvSplashTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SMART WIRELLES"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18pt"
+            android:typeface="serif"/>
+
+
+
+        <TextView
+            android:id="@+id/tvSplashTxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="CONTROLLER"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20pt"
+            android:typeface="serif"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:paddingTop="20pt"
+            android:progressDrawable="?attr/colorBackgroundFloating" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

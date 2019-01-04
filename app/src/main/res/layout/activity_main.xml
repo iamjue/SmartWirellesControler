@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="20pt">
+
+        <TextView
+            android:id="@+id/tvText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wellcome"
+            android:textSize="20pt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tvText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Wirelles\nController"
+            android:textSize="20pt"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/bMainBluetooth"
+            android:layout_width="100pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10pt"
+            android:text="Bluetooth"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#9e9e9e"
+            android:textColor="#0d47a1"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/bMainWifi"
+            android:layout_width="100pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10pt"
+            android:text="Wifi"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#9e9e9e"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
